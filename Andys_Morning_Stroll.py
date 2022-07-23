@@ -80,7 +80,6 @@ so all white tiles whose x and y coordinates sum to a number n such that n % 2 =
 
 
 def make_tile_graph(expected_steps: int) -> dict:
-    # once ant reaches edge,
     size = expected_steps // 2 + 2
     graph = {}
     for i in range(size):
